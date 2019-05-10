@@ -10,7 +10,7 @@ $("#search").click(function() {
       "get",
       "https://newsapi.org/v2/everything?q=" +
         news +
-        "&from=2019-04-07&sortBy=publishedAt&apiKey=36f25c2ccb8745c7a8691c38f93cdbb8"
+        "&from=2019-04-07&sortBy=publishedAt&apiKey=c2a977e851cf42d3894be89afe141cce"
     );
     req.send();
     req.onload = function() {
@@ -58,7 +58,7 @@ let getPosts = new Promise(function(resolved, rejected) {
     "get",
     "https://newsapi.org/v2/everything?q=" +
       news +
-      "&from=2019-04-07&sortBy=publishedAt&apiKey=36f25c2ccb8745c7a8691c38f93cdbb8"
+      "&from=2019-04-07&sortBy=publishedAt&apiKey=c2a977e851cf42d3894be89afe141cce"
   );
   req.send();
   req.onload = function() {
